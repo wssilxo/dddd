@@ -40,7 +40,7 @@ function Library:New(options)
 	-- // Main
 	do
 		-- StarterGui.Library
-		Library.Tree["1"] = Instance.new("ScreenGui", Players.LocalPlayer:WaitForChild("PlayerGui") or CoreGui);
+		Library.Tree["1"] = Instance.new("ScreenGui");
 		Library.Tree["1"]["Name"] = [[Library]];
 		Library.Tree["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 		Library.Tree["1"]["IgnoreGuiInset"] = true;
